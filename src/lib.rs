@@ -56,13 +56,13 @@ pub fn value_from_event(e: Event) -> Option<String> {
 //     let a = set_value!(state);
 // }
 
-#[function_component(Example)]
-fn example() -> Html {
-    let state: UseStateHandle<String> = use_state(|| "".to_string());
+// #[function_component(Example)]
+// fn example() -> Html {
+//     let state: UseStateHandle<String> = use_state(|| "".to_string());
 
-    html! {
-        <input type="text" onchange={
-            set_state!(state)
-        } value={*state}/>
-    }
-}
+//     html! {
+//         <input type="text" onchange={
+//             set_state!(state)
+//         } value={*state}/>
+//     }
+// }
