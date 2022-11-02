@@ -1,0 +1,9 @@
+[package]
+name = "yew_set_state_onchange"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = "0.19.0"
+web-sys = "0.3.60"
+wasm-bindgen = "0.2.83"
